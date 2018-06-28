@@ -1,0 +1,29 @@
+{
+  "name": "@dwcore/dwsd",
+  "version": "0.1.1",
+  "description": "DWS to DWS2 Duplexed Readable/Writable Streams.",
+  "main": "index.js",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {
+    "@dwcore/dwss": "dwcore/dwss#master",
+    "@dwcore/eos": "dwcore/eos#master",
+    "inherits": "^2.0.1",
+    "readable-stream": "*"
+  },
+  "devDependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "@dwcore/dws-chain": "dwcore/dws-chain#master",
+    "tape": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
